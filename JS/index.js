@@ -99,7 +99,7 @@ barba.init({
       namespace: "home",
       beforeEnter() {
         animateSlides();
-        logo.href = "./index.html";
+        logo.href = "../index.html";
       },
       beforeLeave() {
         slideScene.destroy();
@@ -110,7 +110,7 @@ barba.init({
     {
       namespace: "fashion",
       beforeEnter() {
-        logo.href = "../index.html";
+        logo.href = "../fashion/index.html";
         detailAnimation();
       },
       beforeLeave() {
